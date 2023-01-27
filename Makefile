@@ -81,7 +81,7 @@ ${COMPILER}:
 ${COMPILER}/main.axf: ${COMPILER}/main.o
 ${COMPILER}/main.axf: ${COMPILER}/startup_${COMPILER}.o
 ${COMPILER}/main.axf: ${COMPILER}/GPIO.o
-${COMPILER}/main.axf: ${COMPILER}/PLL_CONFIG.o
+${COMPILER}/main.axf: ${COMPILER}/PLL.o
 ${COMPILER}/main.axf: ${COMPILER}/SysTick_Init.o
 ${COMPILER}/main.axf: main.ld
 SCATTERgcc_main=main.ld
